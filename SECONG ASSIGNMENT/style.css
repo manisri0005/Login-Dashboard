@@ -1,0 +1,526 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url("assets/img/background.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.btn{
+    display: flex;
+    align-items:center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn img{
+    width: 20px;
+    margin-right: 10px;
+}
+.content{
+    margin-top: 8%;
+    color: #fff;
+    max-width: 620px;
+}
+.jour{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 15px;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.content form input{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content form .btn{
+    font-size: 15px;
+    padding: 10px 30px;
+}
+.fheading-1{
+    /* float: right; */
+    padding-top: 15px;
+    color:white;
+    text-align: center;
+
+     
+}
+.fheading-2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    /* margin-bottom: 10px; */
+    color: whitesmoke;
+    padding-top:10px;
+}
+.fheading-3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    /* margin-bottom: 10px; */
+    color: whitesmoke;
+    text-decoration: none;
+}
+.fheading-3 text{
+    text-decoration: none;
+}
+.d-block{
+    color:palevioletred;
+    text-decoration: none;
+}
+.text{
+    color: palevioletred;
+    /* list-style: none; */
+}
+.foot1 p{
+    color: palevioletred;
+    padding-top:10px;
+}
+.text-center p{
+    color: whitesmoke;
+}
+.text-center a{
+    color: palevioletred;
+}
+
+.containermid{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url("assets/img/background.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+.book{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 20px;
+    color:palevioletred;
+    padding-top: 15px;
+}
+.jour{
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 20px;
+    color:palevioletred;
+    padding-top: 15px;
+}
+.cardtext{
+    /* padding-top: 10px; */
+    font-size: medium;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 85px;
+    color: whitesmoke;
+}
+.journeytext{
+    padding-top: 10px;
+    font-size: medium;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 80px;
+    color: whitesmoke;
+}
+.imgmid{
+    padding-top: 20px;
+    width: 30%;
+    height: 35%;
+    border-radius: 25px;
+}
+
+.containermid pre{
+color: whitesmoke;
+font-size: x-large;
+font-weight: 600;
+line-height: 20px;
+font-family: sans-serif;
+}
+.containerfooter {
+    width: 100%;
+    min-height: 70vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url("assets/img/footerimg.jpg");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+ .icons{
+    
+    display: flex;
+    list-style: none;
+    justify-content:center ;
+    align-items: flex-start;
+    gap: 50px;
+    color: whitesmoke;
+ }
+ .checkbutton{
+    display: none;
+ }
+ I{
+    color: white;
+ }
+
+ /* medias for a responsive webpages */
+
+@media screen and (max-width: 700px)  
+ {
+    .content h1{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .logo{
+        width:100%;
+        height:50px;
+        top: auto;
+        bottom:0;
+    }
+    .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        background: #f5168d;
+        text-align: center;
+    }
+    .checkbutton:checked ~ .ul{
+        left: 0;
+
+    }
+     .middle{
+        height: 100px;
+        width: 100px;
+        font-size: 20px;
+        line-height: 20px;
+
+    }
+    .journeytext{
+        font-size: medium;
+        font-style: italic;
+        font-weight: 10px;
+        line-height: 80px;
+        
+
+    }
+    .containerfooter{
+        
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .middle h2{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .middle pre{
+        font-size: 10px;
+        line-height: 5px;
+        margin-top: 10px;
+        padding-top: 10px;
+
+    }
+    .cards{
+        
+        font-size: 20px;
+        line-height: 10px;
+    } 
+    .ftco-heading-2{
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .containerfooter p{
+        font-size: 10px;
+        line-height: 25px;
+    }
+    .col-md{
+        font-size: 10px;
+        line-height: 10px;
+
+    }
+    .d-block{
+        font-size: 40px;
+        line-height: 10px;
+    }
+    .list-unstyled{
+        font-size: 20px;
+        line-height: 10px;
+   
+    }
+}
+     
+ 
+ @media screen and (max-width: 900px)
+ {
+    .checkbutton{
+        display: block;
+        color: white;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+    font-size: 20px;
+    }
+    .checkbutton:checked ~ ul{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+    }
+    .middle{
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        line-height: 50px;
+
+    }
+    .containerfooter{
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .middle h2{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .middle pre{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .cards{
+        
+        font-size: 20px;
+        line-height: 10px;
+    } 
+    .containerfooter p{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .d-block{
+        font-size: 40px;
+        line-height: 10px;
+    }
+    .list-unstyled{
+        font-size: 20px;
+        line-height: 10px;
+   
+    }
+ }
+ 
+ @media screen and (max-width: 1000px){
+    .content h1{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .logo{
+        width:100%;
+        height:50px;
+        top: auto;
+        bottom:0;
+    }
+    .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        background: #f5168d;
+        text-align: center;
+    }
+    .checkbutton:checked ~ .ul{
+        left: 0;
+
+    }
+     .middle{
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        line-height: 50px;
+
+    }
+    .containerfooter{
+        
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .middle h2{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .middle pre{
+        font-size: 10px;
+        line-height: 5px;
+        margin-top: 10px;
+        padding-top: 10px;
+
+    }
+    .cards{
+        
+        font-size: 20px;
+        line-height: 10px;
+    } 
+    .ftco-heading-2{
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .containerfooter p{
+        font-size: 10px;
+        line-height: 25px;
+    }
+    .col-md{
+        font-size: 10px;
+        line-height: 10px;
+
+    }
+    .d-block{
+        font-size: 40px;
+        line-height: 10px;
+    }
+    .list-unstyled{
+        font-size: 20px;
+        line-height: 10px;
+   
+    }
+ }
+ 
+ @media screen and (max-width: 1200px){
+
+    .content h1{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .logo{
+        width:100%;
+        height:50px;
+        top: auto;
+        bottom:0;
+    }
+    .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        background: #f5168d;
+        text-align: center;
+    }
+    .checkbutton:checked ~ .ul{
+        left: 0;
+
+    }
+     .middle{
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        line-height: 50px;
+
+    }
+    .containerfooter{
+        
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .middle h2{
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .middle pre{
+        font-size: 15px;
+        line-height: 5px;
+        margin-top: 20px;
+        padding-top: 10px;
+
+    }
+    .cards{
+        
+        font-size: 20px;
+        line-height: 10px;
+    } 
+    .ftco-heading-2{
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+    .containerfooter p{
+        font-size: 10px;
+        line-height: 25px;
+    }
+    .col-md{
+        font-size: 10px;
+        line-height: 10px;
+
+    }
+    .d-block{
+        font-size: 10px;
+        line-height: 8px;
+    }
+    .list-unstyled{
+        font-size: 20px;
+        line-height: 10px;
+   
+    }
+ }
+ 

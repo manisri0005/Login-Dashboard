@@ -1,0 +1,167 @@
+   /* travel page css */
+   *{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria;
+    box-sizing: border-box;
+}
+.sec1{
+      width: 100%;
+      min-height: 100vh;
+      background-image:url("assets/img/travelbg1.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 10px 8%;
+  
+}
+nav{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0;
+   font-size: medium;
+}
+.logo{
+   width: 180px;
+   cursor: pointer;
+   color: rgb(11, 1, 20);
+}
+nav ul{
+   list-style: none;
+   width: 100%;
+   text-align: right;
+   padding-right: 60px;
+}
+nav ul li{
+   display: inline-block;
+   margin: 10px 20px;
+}
+nav ul li a{
+   color: #f9f9fa;
+   text-decoration: none;
+   font-size: larger;
+}
+   .title1{
+    color: rgb(3, 4, 10);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-right: 10%;
+    text-align: center;
+}
+.travelcon{
+    min-height: 100vh;
+    /* background-image: linear-gradient url("assets/img/travelimg2.jpg"); */
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    box-sizing: border-box;
+}
+ .content1{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+    /* margin-top: 5%; */
+    /* max-width: 620PX; */
+ }
+ .globeimg{
+    width: 50%;
+    height: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: right;
+    padding: 1%;
+    float: right;
+    margin-left: 15%;
+ }
+ .travelcon{
+    display: flex;
+ }
+ .travelcon2{
+    display: flex;
+ }
+ .roadimg{
+    width: 100%;
+    height: 90%;
+    /* margin-top: 1%; */
+    margin-bottom: 2%;
+    text-align: left;
+    padding: 5%;
+    float: right;
+    margin-right: 10%;
+ }
+ .content2{
+    color: rgba(30, 32, 20, 0.884);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-align: center; 
+    padding-right:10%;
+ }
+ .containerfooter {
+   width: 100%;
+   min-height: 70vh;
+   background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url("assets/img/footerimg.jpg");
+   background-size: cover;
+   /* background-attachment: fixed; */
+   background-position: center;
+   box-sizing: border-box;
+   text-align: center;
+   /* list-style: none; */
+}
+.icons{
+   display: flex;
+   list-style: none;
+   justify-content:center ;
+   align-items: flex-start;
+   gap: 50px;
+   color: whitesmoke;
+}
+.checkbutton{
+   display: none;
+}
+.foot1 p{
+   color: rgb(250, 238, 242);
+   padding-top:10px;
+}
+i{
+   color :white;
+}
+.d-block{
+   color:rgb(243, 235, 238);
+   text-decoration: none;
+   /* list-style: none; */
+}
+.fheading-1{
+   /* float: right; */
+   padding-top: 15px;
+   color:rgb(253, 78, 147);
+   text-align: center;   
+}
+.fheading-2{
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 40px;
+   /* margin-bottom: 10px;  */
+   color: rgb(250, 82, 166);
+   padding-top:10px;
+}
+.fheading-3{
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 40px;
+   /* margin-bottom: 10px; */
+   color: rgb(253, 49, 219);
+   text-decoration: none;
+}
+.text{
+   color: white;
+}
